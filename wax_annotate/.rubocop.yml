@@ -1,0 +1,9 @@
+AllCops:
+  TargetRubyVersion: 2.5
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Metrics/LineLength:
+  IgnoredPatterns:
+    - '\A#'
+    - '{{'
+    - '\Aputs'
