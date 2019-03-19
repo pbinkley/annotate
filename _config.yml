@@ -17,3 +17,11 @@ include: [feed.xml]
 webrick:
   headers:
     "Access-Control-Allow-Origin": "*"
+
+wax_annotate:
+  ingest_dir: 'annotations'
+  target_dir: 'iiif'
+  manifests:
+    - 'https://gallica.bnf.fr/iiif/ark:/12148/btv1b10500001g/manifest.json'
+    - 'https://purl.stanford.edu/wh234bz9013/iiif/manifest'
+    - 'https://derivativo-3.library.columbia.edu/iiif/2/presentation/10.7916/d8-fcng-k085/manifest'
